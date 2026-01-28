@@ -10,7 +10,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image - positioned to show characters on right */}
-      <div className="absolute hidden md:block inset-0 z-0 overflow-hidden">
+      <div className="absolute block inset-0 z-0 overflow-hidden">
       <Image
         src={hero_bg}
         alt=""
@@ -19,6 +19,7 @@ export function HeroSection() {
         quality={100}
         className="
           object-cover
+          object-top
           object-right
           scale-[1.05]
           sm:scale-[1]

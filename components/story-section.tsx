@@ -10,7 +10,7 @@ export function StorySection() {
     <section className="relative py-28 bg-gradient-to-b from-[#0a1628] via-[#0d1d33] to-[#0a1628]">
       
       {/* Background Image only on xl and above */}
-      <div className="absolute hidden md:block inset-0 z-0 overflow-hidden">
+      <div className="absolute block inset-0 z-0 overflow-hidden">
       <Image
         src={peng}
         alt=""
