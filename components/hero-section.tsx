@@ -19,8 +19,9 @@ export function HeroSection() {
         quality={100}
         className="
           object-cover
-          object-top
-          object-right
+          object-[top_right]
+          w-full
+          h-full
           scale-[1.05]
           sm:scale-[1]
           md:scale-[0.98]

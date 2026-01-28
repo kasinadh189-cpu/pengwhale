@@ -19,7 +19,7 @@ export function StorySection() {
         quality={100}
         className="
           object-cover
-          object-right
+          object-[top_right]
           scale-x-[-1]
         "
       />
